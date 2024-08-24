@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    {{header}}
+    {{>header}}
     <p class="line">Use this page to get weather info.</p>
     <div class="searcharea">
         <input type="text" placeholder="Location">
@@ -15,7 +15,7 @@
     </div>
     <p class="weather"><span>Location</span>: </p>
     <p class="weather"><span>Forecast</span>: </p>
-    {{footer}}
+    {{>footer}}
 
     <script src="./js/index.js"></script>
     <script src="./js/search.js"></script>
